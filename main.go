@@ -18,4 +18,7 @@ func main() {
     newFunc(10)
     // we can merge all the above examples
 
+
+    example.ReadBooksConcurrent()
+
 }

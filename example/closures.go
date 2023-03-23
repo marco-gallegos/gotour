@@ -1,5 +1,24 @@
 package example
 
+
+/*
+# 2023-03-20
+
+better support on closures (and anonymous functions), looks inspired by js.
+
+is important define return and input types
+return functions
+declare inline
+use current functions
+use as parameter
+
+## todo
+
+- [ ] apply a function passed as arg to another input
+- [ ] how flexible is now with generics
+
+*/
+
 import (
     "fmt"
 )
