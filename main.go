@@ -4,11 +4,12 @@ package main
 import (
     "fmt"
     "tour/example"
+    "tour/challenges"
 )
 
 
 func main() {
-    fmt.Println("main")
+    fmt.Println("package main")
 
     // we can use functions/closures like in js/ts
     // here i use a anonymous function 
@@ -21,4 +22,6 @@ func main() {
 
     example.ReadBooksConcurrent()
 
+    fmt.Println("challenges")
+    challenges.Main()
 }
